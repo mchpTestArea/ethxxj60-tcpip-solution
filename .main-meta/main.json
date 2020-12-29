@@ -1,0 +1,78 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.mplabx.project.ethxxj60-tcpip-solution",
+        "version": "1.0.0",
+        "displayName": "ETHxxJ60 TCPIP Solutions",
+        "projectName": "ethxxj60-tcpip-solution",
+        "shortDescription": "Microchip ETHxxJ60 Ethernet Driver and TCPIP Application Solutions",
+        "ide": {
+            "name": "MPLABX",
+            "semverRange": ">=5.40.0"
+        },
+        "compiler": [
+            {
+                "name": "xc8",
+                "semverRange": "^2.20.0"
+            }
+        ],
+        "configurator": {
+            "name": "MCC",
+            "semverRange": ">=4.0.1"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F67J60",
+                "versionRange": "*"
+            }
+        },
+        "author": "MCU8 Library Development Team",
+        "subcategories": [
+            "MCC",
+            "IoT",
+            [
+                "Peripherals",
+                "SPI"
+            ],
+            [
+                "Peripherals",
+                "TIMER"
+            ],
+        ],
+        "peripherals": [
+            "Interrupt",
+            "SPI",
+            "TIMER"
+        ],
+        "keywords": [
+            "MCC",
+            "ETHxxJ60",
+            "TCPIP",
+            "Ethernet",
+            "IoT PoE Development Board",
+            "TCPIPLite",
+			"DHCP",
+			"UDP",
+			"TCP Server",
+			"TCP Client",
+			"PIC18 PoE Main Board"
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./readme.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }   
+    }
+}
